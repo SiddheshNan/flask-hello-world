@@ -2,7 +2,7 @@ from flask import Flask
 import os
 
 app = Flask(__name__)
-app_port = os.getenv("PORT", "5000")
+app_port = os.getenv("PORT", "9988")
 
 @app.route('/')
 def hello_world():
