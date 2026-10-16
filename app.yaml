@@ -8,4 +8,4 @@ run: .venv/bin/python hello.py
 post: echo "deployed $RELEASE_ID"
 
 port: 8000
-health: /healthz
+health: /
