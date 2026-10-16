@@ -3,7 +3,7 @@ pre: |
   python3 -m venv .venv
   .venv/bin/pip install -r requirements.txt
 
-run: .venv/bin/python app.py
+run: .venv/bin/python hello.py
 
 post: echo "deployed $RELEASE_ID"
 
