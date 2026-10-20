@@ -5,7 +5,9 @@ pre: |
 
 run: .venv/Scripts/python hello.py
 
-post: echo "deployed $RELEASE_ID"
+post: |
+  echo "deployed $RELEASE_ID"
+  echo "all done"
 
 port: 9988
 
