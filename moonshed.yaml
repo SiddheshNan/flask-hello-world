@@ -8,3 +8,4 @@ run: .venv/Scripts/python hello.py
 post: echo "deployed $RELEASE_ID"
 
 port: 9988
+
